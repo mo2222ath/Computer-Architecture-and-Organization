@@ -1,0 +1,19 @@
+|exercise10
+Y <= MUX41:inst1.Q
+b => MUX41:inst1.S0
+a => MUX41:inst1.S1
+c => NotC.IN0
+c => MUX41:inst1.D1
+
+
+|exercise10|MUX41:inst1
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+

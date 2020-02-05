@@ -1,0 +1,15 @@
+|exercise2
+a[0] => y.DATAA
+a[0] => y.OUTPUTSELECT
+a[0] => y.OUTPUTSELECT
+a[1] => y.DATAA
+a[1] => y.OUTPUTSELECT
+a[1] => y.OUTPUTSELECT
+a[2] => y.OUTPUTSELECT
+a[2] => y.OUTPUTSELECT
+a[3] => y.OUTPUTSELECT
+a[3] => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

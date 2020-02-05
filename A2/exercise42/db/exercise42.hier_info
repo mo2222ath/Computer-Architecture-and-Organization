@@ -1,0 +1,7 @@
+|exercise42
+Q <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Clk => Dff1.CLK
+Clk => Dff2.CLK
+x => inst.IN0
+
+

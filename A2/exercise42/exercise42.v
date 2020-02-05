@@ -1,0 +1,38 @@
+module exercise42(
+	x,
+	Clk,
+	Q
+);
+
+input wire	x;
+input wire	Clk;
+output wire	Q;
+
+wire	SYNTHESIZED_WIRE_0;
+wire	SYNTHESIZED_WIRE_1;
+wire	SYNTHESIZED_WIRE_2;
+wire	SYNTHESIZED_WIRE_3;
+reg	SYNTHESIZED_WIRE_4;
+reg	SYNTHESIZED_WIRE_5;
+
+always@(posedge Clk)
+begin
+	begin
+	SYNTHESIZED_WIRE_5 <= SYNTHESIZED_WIRE_0;
+	end
+end
+
+always@(posedge Clk)
+begin
+	begin
+	SYNTHESIZED_WIRE_4 <= SYNTHESIZED_WIRE_1;
+	end
+end
+
+assign	SYNTHESIZED_WIRE_1 = x & SYNTHESIZED_WIRE_2;
+assign	SYNTHESIZED_WIRE_0 = SYNTHESIZED_WIRE_3 | SYNTHESIZED_WIRE_4;
+assign	SYNTHESIZED_WIRE_3 =  ~SYNTHESIZED_WIRE_5;
+assign	SYNTHESIZED_WIRE_2 =  ~SYNTHESIZED_WIRE_4;
+assign	Q = SYNTHESIZED_WIRE_5 | SYNTHESIZED_WIRE_4;
+
+endmodule

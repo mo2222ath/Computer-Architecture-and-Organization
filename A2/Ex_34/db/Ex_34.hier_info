@@ -1,0 +1,11 @@
+|Ex_34
+La1 <= S1.DB_MAX_OUTPUT_PORT_TYPE
+Clk => S1.CLK
+Clk => S0.CLK
+Tb => inst21.IN0
+Ta => inst18.IN0
+La0 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Lb1 <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+Lb0 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
